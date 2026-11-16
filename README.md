@@ -439,3 +439,24 @@ No universal indexing, search ranking, traffic, security or compliance guarantee
 Athens, Greece.
 
 [Website](https://paragonelitefight.com) · [Technology](https://paragonelitefight.com/pages/paragon-fight-technology-security) · [Verification](https://paragonelitefight.com/pages/verification) · [AI Agent Gateway](https://paragonelitefight.com/pages/ai-agent-gateway)
+---
+
+## PUBLISHED TECHNICAL REPORT
+
+### From Reviewed Snapshots to Machine-Readable Publications
+
+The standalone Paragon FightPulse implementation report is published on Zenodo as version 1.0.0.
+
+It expands the publication-pipeline explanation with retained implementation observations, timestamp discipline, integrity boundaries and limitations.
+
+[Read the published report](https://doi.org/10.5281/zenodo.24279360)
+
+### Cite the report
+
+Paragon Elite Fight Group. (2026). *From Reviewed Snapshots to Machine-Readable Publications: A Paragon FightPulse Implementation Report* (Version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.24279360
+
+The report is licensed under CC BY 4.0. This does not change the licensing of this repository, linked equipment technical packs or underlying datasets.
+
+The report is a separate publication associated with the Paragon Technology v0.1.0 documentation release, not an identical copy or a DOI assigned to the entire technology ecosystem.
+
+Repository hosting and a DOI do not establish peer review, independent certification or the truth of every reported observation.
