@@ -21,7 +21,7 @@ Different systems serve different purposes. Their boundaries are part of the des
 - [Product-development R&D](https://paragonelitefight.com/pages/paragon-research-development)
 - [R&D technical documents](https://github.com/paragonelitefight/paragon-r-and-d)
 
-This repository is being assembled as the technical documentation hub for selected parts of that ecosystem.
+This repository is the technical documentation hub for selected parts of that ecosystem.
 
 It is not a release of our complete production infrastructure.
 
@@ -420,7 +420,7 @@ Working components, partial workflows, disabled systems, retired components and 
 
 Documentation baseline: 16 November 2026.
 
-This repository is being assembled in private before public release.
+This initial documentation edition presents selected implementation reports, dated evidence and clearly labelled experimental directions.
 
 The first supporting technical package focuses on the FightPulse publication pipeline. Other components in this overview do not yet imply an equivalent level of repository documentation.
 
