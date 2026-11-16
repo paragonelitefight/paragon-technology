@@ -26,7 +26,43 @@ This repository is being assembled as the technical documentation hub for select
 It is not a release of our complete production infrastructure.
 
 ---
+## OPEN THE ENGINEERING
 
+### Follow the architecture. Inspect the evidence.
+
+Choose your route into the Paragon technology ecosystem:
+
+- **[Documentation atlas](docs/INDEX.md)**  
+  The starting point for technical readers: architecture, evidence, examples and publication boundaries.
+
+- **[Inside OhYeah](docs/OHYEAH.md)**  
+  Follow a source quotation from a stored snapshot to a signed record and browser-side verification.
+
+- **[The sixteen-component systems map](docs/SYSTEMS_MAP.md)**  
+  Explore the responsibilities and boundaries of our discovery, evidence, guidance and publication infrastructure, including disabled and retired components.
+
+- **[The FightPulse implementation report](docs/CASE_STUDY.md)**  
+  Examine how a reviewed historical release becomes consistent machine-readable publication representations.
+
+- **[Publication architecture](docs/ARCHITECTURE.md)**  
+  Understand the selected pipeline, its data flow and failure-handling boundaries.
+
+- **[Evidence ledger](docs/EVIDENCE.md)**  
+  Read the dated observations and distinguish verified behaviour from unconfirmed scope.
+
+- **[Reproducibility notes](docs/REPRODUCIBILITY.md)**  
+  Review the proposed bounded checks and their limitations.
+
+- **[Experimental showcase roadmap](docs/ROADMAP.md)**  
+  Explore proposed demonstrations and useful tools, clearly separated from deployed capabilities.
+
+### Structured documentation artifacts
+
+[Publication-record schema draft](schemas/publication-record.schema.json) · [Expected-contract example](examples/expected-contract.json) · [Rights and reuse](RIGHTS_AND_REUSE.md)
+
+The schema is a documentation draft. The example contains selected expected facts, not a captured live response. Neither is a production SDK or a claim of validated conformance.
+
+---
 ## 01 / OHYEAH
 
 ### “Oh, yeah?” is a useful engineering question.
