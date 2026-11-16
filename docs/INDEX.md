@@ -18,4 +18,4 @@ The top-level README is the ecosystem overview. The original ARCHITECTURE docume
 
 Implementation descriptions draw on retained deployment records and dated acceptance observations. This documentation update ran no new network checks, collection jobs, cryptographic acceptance tests or production deployments.
 
-The repository is being assembled privately. Public release and external distribution remain separate steps. Production software, customer records, private keys and unpublished operational material are not bundled.
+This is an initial documentation edition. External archive deposits and further distribution are separate publication steps. Production software, customer records, private keys and unpublished operational material are not bundled.
