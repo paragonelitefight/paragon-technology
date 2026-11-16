@@ -1,0 +1,33 @@
+{
+  "example_kind": "selected_expected_public_facts_not_http_response",
+  "prepared_on": "2026-11-16",
+  "release_id": "boxing-20261016-20261112",
+  "source_schema": "paragon.fightpulse.public.v1",
+  "publication_schema": "paragon.publication.v1",
+  "observation_window": {
+    "start": "2026-10-16",
+    "end": "2026-11-12",
+    "timezone": "UTC"
+  },
+  "collected_at": "2026-11-13T11:37:30.882Z",
+  "published_at": "2026-11-16T08:02:58.654Z",
+  "coverage": {
+    "tracked": 43,
+    "included": 43,
+    "pending": 0,
+    "failed": 0
+  },
+  "source_sha256": "b51c272f7502a981a6bf902ac90a8f2423e94e6bf24ee6d2449228aaf30cee52",
+  "expected_ranking_smoothing_constant": 500,
+  "links": {
+    "data": "https://paragon-cornerman.delicate-fire-83f8.workers.dev/fight-pulse/boxing-20261016-20261112.json",
+    "publication": "https://paragon-cornerman.delicate-fire-83f8.workers.dev/fight-pulse/boxing-20261016-20261112.json?view=publication",
+    "report": "https://paragonelitefight.com/pages/paragon-fight-technology-security#paragon-fightpulse-boxing-20261112",
+    "evidence": "https://paragonelitefight.com/pages/verification#fightpulse-boxing-release-2026-11-16"
+  },
+  "limitations": [
+    "Historical selected 43-article English Wikipedia attention proxy, not a global athlete ranking.",
+    "Values copied from retained accepted release references; not a new network observation.",
+    "The original source dataset is not redistributed in this package."
+  ]
+}

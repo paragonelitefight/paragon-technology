@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Paragon publication record v1 - documentation schema draft",
+  "description": "Documents the reviewed current record shape. Not a new production version. Does not verify hashes, date order, semantic truth, coverage arithmetic or the full release-specific consumer contract.",
+  "type": "object",
+  "required": [
+    "schema",
+    "id",
+    "title",
+    "record_kind",
+    "release_status",
+    "automatic_refresh",
+    "observation_window",
+    "collected_at",
+    "published_at",
+    "source",
+    "coverage",
+    "ranking_method",
+    "limitations",
+    "integrity",
+    "links",
+    "representations",
+    "synchronization"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema": {
+      "const": "paragon.publication.v1"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_kind": {
+      "const": "derived_unsigned_publication_record"
+    },
+    "release_status": {
+      "const": "published_historical_snapshot"
+    },
+    "automatic_refresh": {
+      "const": false
+    },
+    "observation_window": {
+      "type": "object",
+      "required": [
+        "start",
+        "end",
+        "timezone"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "string",
+          "format": "date"
+        },
+        "end": {
+          "type": "string",
+          "format": "date"
+        },
+        "timezone": {
+          "const": "UTC"
+        }
+      }
+    },
+    "collected_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "published_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string",
+      "maxLength": 1000
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "tracked",
+        "included",
+        "pending",
+        "failed"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "tracked": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "included": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "pending": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "failed": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "ranking_method": {
+      "type": "object",
+      "required": [
+        "order",
+        "smoothing_constant",
+        "raw_change_zero_baseline"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "order": {
+          "type": "string"
+        },
+        "smoothing_constant": {
+          "const": 500
+        },
+        "raw_change_zero_baseline": {
+          "type": "string"
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "string",
+        "maxLength": 2000
+      }
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "source_sha256",
+        "source_bytes_verified_for_this_response",
+        "meaning"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "source_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "source_bytes_verified_for_this_response": {
+          "const": true
+        },
+        "meaning": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "links": {
+      "type": "object",
+      "required": [
+        "data",
+        "report",
+        "evidence",
+        "publication"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "data": {
+          "type": "string",
+          "format": "uri"
+        },
+        "report": {
+          "type": "string",
+          "format": "uri"
+        },
+        "evidence": {
+          "type": "string",
+          "format": "uri"
+        },
+        "publication": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "representations": {
+      "type": "object",
+      "required": [
+        "json",
+        "markdown",
+        "html_fragment"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "json": {
+          "type": "string",
+          "format": "uri"
+        },
+        "markdown": {
+          "type": "string",
+          "format": "uri"
+        },
+        "html_fragment": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "synchronization": {
+      "type": "object",
+      "required": [
+        "machine_discovery",
+        "storefront_html",
+        "knowledge_base"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "machine_discovery": {
+          "const": "not_connected_by_this_module"
+        },
+        "storefront_html": {
+          "const": "manual_review_and_save"
+        },
+        "knowledge_base": {
+          "const": "separately_maintained"
+        }
+      }
+    }
+  }
+}
