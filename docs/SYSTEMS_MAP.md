@@ -1,5 +1,7 @@
 # Paragon / Sixteen-component lifecycle map
 
+> **19 November 2026 addendum:** The numbered sixteen-component list below is the historical 16 November inventory, not a current total. The later Experimental Lab component, paragon-temporal-lab, serves the integrated browser workbenches and scheduled Living/Temporal state, with public presentation release 1.3.1. The existing gateway and Doorbell also participate in the bounded scheduled source pipeline. The supplementary paragon-agent is now documented as version 2.2.0 with eight tools, including purchase preparation and cart creation, superseding item 8’s old six-tool/read-only description. Cart creation is not payment processing. ProductSync 2.1 and PageSourceSync 1.1 have scoped acceptance, not whole-platform certification. See [connected release](CONNECTED_RELEASE_2026-11-19.md) and [dated acceptance](ACCEPTANCE_2026-11-19.md). No new live account census or complete component count is asserted.
+
 Documentation baseline: 16 November 2026. This is a retained architecture inventory, not a fresh Cloudflare account census, uptime report or claim that sixteen Workers are active.
 
 ## Reading the architecture

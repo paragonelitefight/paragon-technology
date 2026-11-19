@@ -1,5 +1,7 @@
 # Paragon Technology / Documentation atlas
 
+> **19 November 2026 update:** Start with the [connected release](CONNECTED_RELEASE_2026-11-19.md) and [dated acceptance record](ACCEPTANCE_2026-11-19.md). The retained baseline below remains useful for the original FightPulse and OhYeah documentation; its statement that this package ran no checks refers to the original documentation preparation, not the separate dated observations in the new acceptance record.
+
 Documentation baseline: 16 November 2026. Publisher-authored documentation, not an independent audit or continuous status service.
 
 ## Choose a reading path

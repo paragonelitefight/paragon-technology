@@ -1,5 +1,7 @@
 # Experimental showcase / Earn the attention
 
+> **19 November 2026 status:** This page preserves the original proposal list, not a current all-unimplemented inventory. A bounded Experimental Lab 1.3 is now implemented and served under public presentation release 1.3.1, including synthetic markets, typed evidence exercises, symbolic artwork, fictional-event inspection and supported receipt replay. See the [implemented scope](CONNECTED_RELEASE_2026-11-19.md) and [acceptance boundaries](ACCEPTANCE_2026-11-19.md). This does not establish completion of every distinct proposal below. In particular, the round timer remains deferred, and a signed-proof laboratory or reference-graph explorer must not be inferred from the new evidence exercises. No external archive deposit for this documentation update is claimed before confirmation.
+
 Documentation baseline: 16 November 2026. The entries below are proposals, not deployed features or delivery commitments.
 
 ## Architecture explorer

@@ -1,5 +1,14 @@
 # PARAGON TECHNOLOGY
 
+> **Documentation update — 19 November 2026 / proposed repository release v0.2.0**
+>
+> [Read the connected-release update](docs/CONNECTED_RELEASE_2026-11-19.md) · [Review the dated acceptance record](docs/ACCEPTANCE_2026-11-19.md) · [Open Experimental Lab](https://paragonelitefight.com/experimental-lab)
+>
+> The original 16 November documentation baseline below is retained as a historical account. The dated update supersedes its six-tool MCP description and roadmap-only treatment of the now-implemented bounded Lab capabilities. It does not convert other roadmap entries into completed work. The supplementary shopping adapter is now documented as version 2.2.0 with eight tools; the Lab public-presentation release is 1.3.1. Repository documentation version v0.2.0 is a separate version number, not a software release of the entire infrastructure.
+>
+> This update publishes documentation only. It contains no production Worker source, private installation archive, credentials, customer data, raw third-party source collection or equipment technical packs. Existing rights restrictions remain unchanged. The separately published FightPulse report and its DOI remain a distinct publication.
+
+
 ### BEYOND THE STOREFRONT.
 ### ARCHITECTURE. EVIDENCE. EXPERIMENTATION.
 
